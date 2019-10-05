@@ -14,6 +14,19 @@
 		8DA717C523482EFC00EF6047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA717C323482EFC00EF6047 /* LaunchScreen.storyboard */; };
 		8DA717D023482EFC00EF6047 /* PetAdpotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA717CF23482EFC00EF6047 /* PetAdpotionTests.swift */; };
 		8DA717DB23482EFC00EF6047 /* PetAdpotionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA717DA23482EFC00EF6047 /* PetAdpotionUITests.swift */; };
+		8DA717EF23482FE100EF6047 /* BaseVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA717EE23482FE100EF6047 /* BaseVO.swift */; };
+		8DA717F123482FF200EF6047 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA717F023482FF200EF6047 /* BaseModel.swift */; };
+		8DA717F52348302900EF6047 /* BaseApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA717F42348302900EF6047 /* BaseApiClient.swift */; };
+		8DA717F72348306A00EF6047 /* SharedApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA717F62348306A00EF6047 /* SharedApiClient.swift */; };
+		8DA717F92348308000EF6047 /* IApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA717F82348308000EF6047 /* IApiClient.swift */; };
+		8DA717FB234830DB00EF6047 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA717FA234830DB00EF6047 /* AppConstants.swift */; };
+		8DA717FD234830FF00EF6047 /* UserDefUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA717FC234830FE00EF6047 /* UserDefUtils.swift */; };
+		8DA717FF2348313200EF6047 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA717FE2348313200EF6047 /* Extensions.swift */; };
+		8DA718052348319000EF6047 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA718042348319000EF6047 /* BaseCollectionViewCell.swift */; };
+		8DA71807234831A000EF6047 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA71806234831A000EF6047 /* BaseTableViewCell.swift */; };
+		8DA71809234831A700EF6047 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DA71808234831A700EF6047 /* View.xib */; };
+		8DA7180D2348332700EF6047 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7180C2348332700EF6047 /* BasePresenter.swift */; };
+		8DA718122348334400EF6047 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA718112348334400EF6047 /* BaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,19 @@
 		8DA717D623482EFC00EF6047 /* PetAdpotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetAdpotionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA717DA23482EFC00EF6047 /* PetAdpotionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetAdpotionUITests.swift; sourceTree = "<group>"; };
 		8DA717DC23482EFC00EF6047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA717EE23482FE100EF6047 /* BaseVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVO.swift; sourceTree = "<group>"; };
+		8DA717F023482FF200EF6047 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		8DA717F42348302900EF6047 /* BaseApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApiClient.swift; sourceTree = "<group>"; };
+		8DA717F62348306A00EF6047 /* SharedApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedApiClient.swift; sourceTree = "<group>"; };
+		8DA717F82348308000EF6047 /* IApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IApiClient.swift; sourceTree = "<group>"; };
+		8DA717FA234830DB00EF6047 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		8DA717FC234830FE00EF6047 /* UserDefUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefUtils.swift; sourceTree = "<group>"; };
+		8DA717FE2348313200EF6047 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8DA718042348319000EF6047 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		8DA71806234831A000EF6047 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		8DA71808234831A700EF6047 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		8DA7180C2348332700EF6047 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		8DA718112348334400EF6047 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +123,13 @@
 		8DA717B923482EF800EF6047 /* PetAdpotion */ = {
 			isa = PBXGroup;
 			children = (
+				8DA7180B2348331B00EF6047 /* mvp */,
+				8DA718002348316F00EF6047 /*  cells */,
+				8DA717F32348301100EF6047 /* utils */,
+				8DA717F22348300B00EF6047 /* network */,
+				8DA717E923482FAE00EF6047 /* data */,
 				8DA717BA23482EF800EF6047 /* AppDelegate.swift */,
-				8DA717BC23482EF800EF6047 /* ViewController.swift */,
+				8DA717EB23482FC400EF6047 /* viewcontrollers */,
 				8DA717BE23482EF800EF6047 /* Main.storyboard */,
 				8DA717C123482EFC00EF6047 /* Assets.xcassets */,
 				8DA717C323482EFC00EF6047 /* LaunchScreen.storyboard */,
@@ -123,6 +154,110 @@
 				8DA717DC23482EFC00EF6047 /* Info.plist */,
 			);
 			path = PetAdpotionUITests;
+			sourceTree = "<group>";
+		};
+		8DA717E923482FAE00EF6047 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				8DA717ED23482FD100EF6047 /* models */,
+				8DA717EC23482FCE00EF6047 /* vos */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		8DA717EB23482FC400EF6047 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				8DA717BC23482EF800EF6047 /* ViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		8DA717EC23482FCE00EF6047 /* vos */ = {
+			isa = PBXGroup;
+			children = (
+				8DA717EE23482FE100EF6047 /* BaseVO.swift */,
+			);
+			path = vos;
+			sourceTree = "<group>";
+		};
+		8DA717ED23482FD100EF6047 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				8DA717F023482FF200EF6047 /* BaseModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		8DA717F22348300B00EF6047 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				8DA717F42348302900EF6047 /* BaseApiClient.swift */,
+				8DA717F62348306A00EF6047 /* SharedApiClient.swift */,
+				8DA717F82348308000EF6047 /* IApiClient.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		8DA717F32348301100EF6047 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				8DA717FA234830DB00EF6047 /* AppConstants.swift */,
+				8DA717FC234830FE00EF6047 /* UserDefUtils.swift */,
+				8DA717FE2348313200EF6047 /* Extensions.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		8DA718002348316F00EF6047 /*  cells */ = {
+			isa = PBXGroup;
+			children = (
+				8DA718032348318200EF6047 /* xibs */,
+				8DA718012348317700EF6047 /* swifts */,
+			);
+			path = " cells";
+			sourceTree = "<group>";
+		};
+		8DA718012348317700EF6047 /* swifts */ = {
+			isa = PBXGroup;
+			children = (
+				8DA718042348319000EF6047 /* BaseCollectionViewCell.swift */,
+				8DA71806234831A000EF6047 /* BaseTableViewCell.swift */,
+			);
+			path = swifts;
+			sourceTree = "<group>";
+		};
+		8DA718032348318200EF6047 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				8DA71808234831A700EF6047 /* View.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		8DA7180B2348331B00EF6047 /* mvp */ = {
+			isa = PBXGroup;
+			children = (
+				8DA718102348333C00EF6047 /* views */,
+				8DA7180E2348332D00EF6047 /* presenters */,
+			);
+			path = mvp;
+			sourceTree = "<group>";
+		};
+		8DA7180E2348332D00EF6047 /* presenters */ = {
+			isa = PBXGroup;
+			children = (
+				8DA7180C2348332700EF6047 /* BasePresenter.swift */,
+			);
+			path = presenters;
+			sourceTree = "<group>";
+		};
+		8DA718102348333C00EF6047 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				8DA718112348334400EF6047 /* BaseView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA71809234831A700EF6047 /* View.xib in Resources */,
 				8DA717C523482EFC00EF6047 /* LaunchScreen.storyboard in Resources */,
 				8DA717C223482EFC00EF6047 /* Assets.xcassets in Resources */,
 				8DA717C023482EF800EF6047 /* Main.storyboard in Resources */,
@@ -256,7 +392,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA717F72348306A00EF6047 /* SharedApiClient.swift in Sources */,
+				8DA717F52348302900EF6047 /* BaseApiClient.swift in Sources */,
 				8DA717BD23482EF800EF6047 /* ViewController.swift in Sources */,
+				8DA717FB234830DB00EF6047 /* AppConstants.swift in Sources */,
+				8DA71807234831A000EF6047 /* BaseTableViewCell.swift in Sources */,
+				8DA718052348319000EF6047 /* BaseCollectionViewCell.swift in Sources */,
+				8DA717EF23482FE100EF6047 /* BaseVO.swift in Sources */,
+				8DA717FF2348313200EF6047 /* Extensions.swift in Sources */,
+				8DA7180D2348332700EF6047 /* BasePresenter.swift in Sources */,
+				8DA717F123482FF200EF6047 /* BaseModel.swift in Sources */,
+				8DA717FD234830FF00EF6047 /* UserDefUtils.swift in Sources */,
+				8DA718122348334400EF6047 /* BaseView.swift in Sources */,
+				8DA717F92348308000EF6047 /* IApiClient.swift in Sources */,
 				8DA717BB23482EF800EF6047 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
