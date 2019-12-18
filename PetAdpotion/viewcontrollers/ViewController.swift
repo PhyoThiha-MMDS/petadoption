@@ -10,12 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    private let mPresenter:LoginPresenterImpl = LoginPresenterImpl()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        mPresenter.attachView(view: self)
       
     }
 
-
+    @IBAction func onClickGetStarted(_ sender: Any) {
+        
+        mPresenter.onClickGetStarted()
+    }
+    
 }
 
+extension ViewController : LoginView {
+    
+    func displayGreetingMessage(msg: String) {
+        print(msg)
+    }
+    
+    
+}

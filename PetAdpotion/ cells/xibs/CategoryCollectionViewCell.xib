@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell" customModule="PetAdpotion" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="137" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="137" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qfd-bd-zJp">
+                        <rect key="frame" x="0.0" y="0.0" width="137" height="100"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ix1-aV-ENS" customClass="CardView" customModule="PetAdpotion" customModuleProvider="target">
+                                <rect key="frame" x="5" y="5" width="127" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dummy_dog" translatesAutoresizingMaskIntoConstraints="NO" id="lsf-Z1-wVB">
+                                        <rect key="frame" x="0.0" y="0.0" width="127" height="60"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="2EZ-gy-A4x"/>
+                                    <constraint firstAttribute="bottom" secondItem="lsf-Z1-wVB" secondAttribute="bottom" id="aq3-cC-FhI"/>
+                                    <constraint firstItem="lsf-Z1-wVB" firstAttribute="top" secondItem="ix1-aV-ENS" secondAttribute="top" id="hOB-ex-MJt"/>
+                                    <constraint firstItem="lsf-Z1-wVB" firstAttribute="leading" secondItem="ix1-aV-ENS" secondAttribute="leading" id="ji2-2u-WTQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="lsf-Z1-wVB" secondAttribute="trailing" id="vBl-HM-wJF"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dog" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8Y-Pe-uxo">
+                                <rect key="frame" x="8" y="73" width="121" height="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ix1-aV-ENS" secondAttribute="trailing" constant="5" id="33d-th-5WO"/>
+                            <constraint firstItem="d8Y-Pe-uxo" firstAttribute="top" secondItem="ix1-aV-ENS" secondAttribute="bottom" constant="8" id="ApL-nG-0z7"/>
+                            <constraint firstItem="ix1-aV-ENS" firstAttribute="leading" secondItem="Qfd-bd-zJp" secondAttribute="leading" constant="5" id="CAT-q0-7JY"/>
+                            <constraint firstItem="d8Y-Pe-uxo" firstAttribute="leading" secondItem="Qfd-bd-zJp" secondAttribute="leading" constant="8" id="VMi-a4-BOK"/>
+                            <constraint firstAttribute="bottom" secondItem="d8Y-Pe-uxo" secondAttribute="bottom" constant="8" id="lcU-6S-EbY"/>
+                            <constraint firstAttribute="trailing" secondItem="d8Y-Pe-uxo" secondAttribute="trailing" constant="8" id="nYO-Ij-0Kw"/>
+                            <constraint firstItem="ix1-aV-ENS" firstAttribute="top" secondItem="Qfd-bd-zJp" secondAttribute="top" constant="5" id="tpY-z2-Plx"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Qfd-bd-zJp" secondAttribute="bottom" id="Odu-eq-a2S"/>
+                <constraint firstItem="Qfd-bd-zJp" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="PCt-ZO-cEf"/>
+                <constraint firstAttribute="trailing" secondItem="Qfd-bd-zJp" secondAttribute="trailing" id="Uub-wY-Xdr"/>
+                <constraint firstItem="Qfd-bd-zJp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="rCg-2H-Xvp"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="137" height="142"/>
+            <connections>
+                <outlet property="ivCategory" destination="lsf-Z1-wVB" id="ayH-og-YWR"/>
+            </connections>
+            <point key="canvasLocation" x="47.10144927536232" y="183.48214285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="dummy_dog" width="50" height="50"/>
+    </resources>
+</document>

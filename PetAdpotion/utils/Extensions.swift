@@ -9,3 +9,10 @@
 import Foundation
 import UIKit
 
+extension Data {
+    
+    func seralizeData<T>(for object: T.Type) -> T where T:Codable{
+        let decoder = JSONDecoder()
+        return try! decoder.decode(object, from: self)
+    }
+}

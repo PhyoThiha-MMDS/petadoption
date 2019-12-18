@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import RxSwift
 class SharedApiClient:BaseApiClient{
     
     // MARK: - Properties
@@ -15,10 +16,25 @@ class SharedApiClient:BaseApiClient{
     
 
     // Initialization
-    
     private override init() {}
 }
 
 extension SharedApiClient : IApiClient {
+    
+    
+    func getAllCats() -> Observable<GetAllCatsResponse> {
+        
+        return self.reuqestApiWithHeaders2(url: API_GET_ALL_CATS, method: .post, params: [:], value: GetAllCatsResponse.self)
+    }
+
+    
+    func getAllCategoriesRx() -> Observable<GetAllPetCategoryResponse> {
+        
+        return self.reuqestApiWithHeaders2(url: API_GET_ALL_CATEGORIES, method: .get, params: [:], value: GetAllPetCategoryResponse.self)
+        
+    }
+    
+   
+    
     
 }
