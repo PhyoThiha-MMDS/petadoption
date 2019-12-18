@@ -21,7 +21,7 @@ DEPENDENCIES:
   - RxSwift
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - IQKeyboardManagerSwift
     - Kingfisher
@@ -39,6 +39,6 @@ SPEC CHECKSUMS:
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
 
-PODFILE CHECKSUM: 22544e602a6fd2092cab5e05cfdb4c666c93d9db
+PODFILE CHECKSUM: 18de1f00a94c1622903586fcc6a7b427088a253e
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.8.4

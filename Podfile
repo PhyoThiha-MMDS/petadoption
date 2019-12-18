@@ -16,10 +16,22 @@ target 'PetAdpotion' do
   target 'PetAdpotionTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'IQKeyboardManagerSwift'
+    pod 'LGSideMenuController'
+    pod 'Alamofire', :inhibit_warnings => true
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'Kingfisher'
   end
   
   target 'PetAdpotionUITests' do
     inherit! :search_paths
+    pod 'IQKeyboardManagerSwift'
+    pod 'LGSideMenuController'
+    pod 'Alamofire', :inhibit_warnings => true
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'Kingfisher'
     # Pods for testing
   end
   
