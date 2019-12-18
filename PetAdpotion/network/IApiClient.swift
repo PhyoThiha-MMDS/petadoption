@@ -7,6 +7,11 @@
 //
 
 import Foundation
+import RxSwift
 protocol IApiClient {
     
+
+    
+    func getAllCategoriesRx() -> Observable<GetAllPetCategoryResponse>
+    func getAllCats() -> Observable<GetAllCatsResponse>
 }

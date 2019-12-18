@@ -3,10 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C6261505F5520CD9179D75B /* Pods_PetAdpotionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11D67ECBC10D6E244255EF9 /* Pods_PetAdpotionUITests.framework */; };
+		4F603A62BA8D104D423D39C6 /* Pods_PetAdpotionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4775848B31292B4E19F51FD4 /* Pods_PetAdpotionTests.framework */; };
+		8D10E87A2376C83900718B9C /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10E8792376C83900718B9C /* ErrorResponse.swift */; };
+		8D10E87D2376DBC000718B9C /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10E87C2376DBC000718B9C /* BaseViewModel.swift */; };
+		8D10E87F2376DBE400718B9C /* PetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10E87E2376DBE400718B9C /* PetListViewModel.swift */; };
+		8D10E88A2377EAAA00718B9C /* GetAllCatsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10E8892377EAAA00718B9C /* GetAllCatsResponse.swift */; };
+		8D10E88C2377EAE500718B9C /* CatsVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10E88B2377EAE500718B9C /* CatsVO.swift */; };
+		8D8DD9D02349E90500B9191B /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8DD9CF2349E90500B9191B /* BaseResponse.swift */; };
+		8D8DD9D22349E95600B9191B /* GetAllPetCategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8DD9D12349E95600B9191B /* GetAllPetCategoryResponse.swift */; };
+		8D8DD9D42349E98900B9191B /* CategoryVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8DD9D32349E98900B9191B /* CategoryVO.swift */; };
+		8D8DD9D62349FE6F00B9191B /* PetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8DD9D52349FE6F00B9191B /* PetListView.swift */; };
+		8D8DD9D82349FE9000B9191B /* PetListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8DD9D72349FE9000B9191B /* PetListPresenter.swift */; };
+		8D8DD9DA2349FEDD00B9191B /* PetListPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8DD9D92349FEDD00B9191B /* PetListPresenterImpl.swift */; };
+		8D8DD9DC2349FFCB00B9191B /* RemoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8DD9DB2349FFCB00B9191B /* RemoteModel.swift */; };
+		8D8DD9DE234A005D00B9191B /* RemoteModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8DD9DD234A005D00B9191B /* RemoteModelImpl.swift */; };
 		8DA717BB23482EF800EF6047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA717BA23482EF800EF6047 /* AppDelegate.swift */; };
 		8DA717BD23482EF800EF6047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA717BC23482EF800EF6047 /* ViewController.swift */; };
 		8DA717C023482EF800EF6047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA717BE23482EF800EF6047 /* Main.storyboard */; };
@@ -27,6 +42,17 @@
 		8DA71809234831A700EF6047 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DA71808234831A700EF6047 /* View.xib */; };
 		8DA7180D2348332700EF6047 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7180C2348332700EF6047 /* BasePresenter.swift */; };
 		8DA718122348334400EF6047 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA718112348334400EF6047 /* BaseView.swift */; };
+		8DA7181923489A2900EF6047 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7181823489A2900EF6047 /* CardView.swift */; };
+		8DA7181B2348A32000EF6047 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7181A2348A32000EF6047 /* LoginPresenter.swift */; };
+		8DA7181D2348A33400EF6047 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7181C2348A33400EF6047 /* LoginView.swift */; };
+		8DA7181F2348A38500EF6047 /* LoginPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7181E2348A38500EF6047 /* LoginPresenterImpl.swift */; };
+		8DA7182123497DD600EF6047 /* PetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7182023497DD500EF6047 /* PetListViewController.swift */; };
+		8DA7182423497F7900EF6047 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7182223497F7900EF6047 /* CategoryCollectionViewCell.swift */; };
+		8DA7182523497F7900EF6047 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DA7182323497F7900EF6047 /* CategoryCollectionViewCell.xib */; };
+		8DA7182823498A3500EF6047 /* PetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7182623498A3500EF6047 /* PetTableViewCell.swift */; };
+		8DA7182923498A3500EF6047 /* PetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DA7182723498A3500EF6047 /* PetTableViewCell.xib */; };
+		8DBA246B2349A7F300B03AF4 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA246A2349A7F300B03AF4 /* SideMenuViewController.swift */; };
+		CB2D1DDB20040DB182827FC3 /* Pods_PetAdpotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4F3EEEE27D51E81F5F2433 /* Pods_PetAdpotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +73,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F4F3EEEE27D51E81F5F2433 /* Pods_PetAdpotion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetAdpotion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4775848B31292B4E19F51FD4 /* Pods_PetAdpotionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetAdpotionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F661F4BAAE86027272DB620 /* Pods-PetAdpotion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetAdpotion.release.xcconfig"; path = "Target Support Files/Pods-PetAdpotion/Pods-PetAdpotion.release.xcconfig"; sourceTree = "<group>"; };
+		81F6F69728E9E9744B70C1E8 /* Pods-PetAdpotionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetAdpotionUITests.debug.xcconfig"; path = "Target Support Files/Pods-PetAdpotionUITests/Pods-PetAdpotionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D10E8792376C83900718B9C /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		8D10E87C2376DBC000718B9C /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		8D10E87E2376DBE400718B9C /* PetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListViewModel.swift; sourceTree = "<group>"; };
+		8D10E8892377EAAA00718B9C /* GetAllCatsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllCatsResponse.swift; sourceTree = "<group>"; };
+		8D10E88B2377EAE500718B9C /* CatsVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsVO.swift; sourceTree = "<group>"; };
+		8D8DD9CF2349E90500B9191B /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		8D8DD9D12349E95600B9191B /* GetAllPetCategoryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllPetCategoryResponse.swift; sourceTree = "<group>"; };
+		8D8DD9D32349E98900B9191B /* CategoryVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVO.swift; sourceTree = "<group>"; };
+		8D8DD9D52349FE6F00B9191B /* PetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListView.swift; sourceTree = "<group>"; };
+		8D8DD9D72349FE9000B9191B /* PetListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListPresenter.swift; sourceTree = "<group>"; };
+		8D8DD9D92349FEDD00B9191B /* PetListPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListPresenterImpl.swift; sourceTree = "<group>"; };
+		8D8DD9DB2349FFCB00B9191B /* RemoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteModel.swift; sourceTree = "<group>"; };
+		8D8DD9DD234A005D00B9191B /* RemoteModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteModelImpl.swift; sourceTree = "<group>"; };
 		8DA717B723482EF800EF6047 /* PetAdpotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetAdpotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA717BA23482EF800EF6047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DA717BC23482EF800EF6047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +116,21 @@
 		8DA71808234831A700EF6047 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		8DA7180C2348332700EF6047 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
 		8DA718112348334400EF6047 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		8DA7181823489A2900EF6047 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8DA7181A2348A32000EF6047 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		8DA7181C2348A33400EF6047 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8DA7181E2348A38500EF6047 /* LoginPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterImpl.swift; sourceTree = "<group>"; };
+		8DA7182023497DD500EF6047 /* PetListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListViewController.swift; sourceTree = "<group>"; };
+		8DA7182223497F7900EF6047 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		8DA7182323497F7900EF6047 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		8DA7182623498A3500EF6047 /* PetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableViewCell.swift; sourceTree = "<group>"; };
+		8DA7182723498A3500EF6047 /* PetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetTableViewCell.xib; sourceTree = "<group>"; };
+		8DBA246A2349A7F300B03AF4 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		9E344C6300915560CA1954F7 /* Pods-PetAdpotionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetAdpotionTests.debug.xcconfig"; path = "Target Support Files/Pods-PetAdpotionTests/Pods-PetAdpotionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B27E5A246086ABBBA199EA69 /* Pods-PetAdpotion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetAdpotion.debug.xcconfig"; path = "Target Support Files/Pods-PetAdpotion/Pods-PetAdpotion.debug.xcconfig"; sourceTree = "<group>"; };
+		B5203DEDF0B8C536BC5CE243 /* Pods-PetAdpotionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetAdpotionTests.release.xcconfig"; path = "Target Support Files/Pods-PetAdpotionTests/Pods-PetAdpotionTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE6BA3FC956EAD0BE4431349 /* Pods-PetAdpotionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetAdpotionUITests.release.xcconfig"; path = "Target Support Files/Pods-PetAdpotionUITests/Pods-PetAdpotionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E11D67ECBC10D6E244255EF9 /* Pods_PetAdpotionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetAdpotionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2D1DDB20040DB182827FC3 /* Pods_PetAdpotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F603A62BA8D104D423D39C6 /* Pods_PetAdpotionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +154,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6261505F5520CD9179D75B /* Pods_PetAdpotionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15AAFE42F47735C987EDCAE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F4F3EEEE27D51E81F5F2433 /* Pods_PetAdpotion.framework */,
+				4775848B31292B4E19F51FD4 /* Pods_PetAdpotionTests.framework */,
+				E11D67ECBC10D6E244255EF9 /* Pods_PetAdpotionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D10E87B2376DB9C00718B9C /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				8D10E87C2376DBC000718B9C /* BaseViewModel.swift */,
+				8D10E87E2376DBE400718B9C /* PetListViewModel.swift */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+		8D8DD9CE2349E8F500B9191B /* responses */ = {
+			isa = PBXGroup;
+			children = (
+				8D8DD9CF2349E90500B9191B /* BaseResponse.swift */,
+				8D8DD9D12349E95600B9191B /* GetAllPetCategoryResponse.swift */,
+				8D10E8792376C83900718B9C /* ErrorResponse.swift */,
+				8D10E8892377EAAA00718B9C /* GetAllCatsResponse.swift */,
+			);
+			path = responses;
+			sourceTree = "<group>";
+		};
 		8DA717AE23482EF800EF6047 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +198,8 @@
 				8DA717CE23482EFC00EF6047 /* PetAdpotionTests */,
 				8DA717D923482EFC00EF6047 /* PetAdpotionUITests */,
 				8DA717B823482EF800EF6047 /* Products */,
+				EB9C16454E8E6B60FF222A60 /* Pods */,
+				15AAFE42F47735C987EDCAE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +216,7 @@
 		8DA717B923482EF800EF6047 /* PetAdpotion */ = {
 			isa = PBXGroup;
 			children = (
+				8DA71817234899F500EF6047 /* components */,
 				8DA7180B2348331B00EF6047 /* mvp */,
 				8DA718002348316F00EF6047 /*  cells */,
 				8DA717F32348301100EF6047 /* utils */,
@@ -169,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				8DA717BC23482EF800EF6047 /* ViewController.swift */,
+				8DA7182023497DD500EF6047 /* PetListViewController.swift */,
 			);
 			path = viewcontrollers;
 			sourceTree = "<group>";
@@ -177,6 +272,8 @@
 			isa = PBXGroup;
 			children = (
 				8DA717EE23482FE100EF6047 /* BaseVO.swift */,
+				8D8DD9D32349E98900B9191B /* CategoryVO.swift */,
+				8D10E88B2377EAE500718B9C /* CatsVO.swift */,
 			);
 			path = vos;
 			sourceTree = "<group>";
@@ -185,6 +282,8 @@
 			isa = PBXGroup;
 			children = (
 				8DA717F023482FF200EF6047 /* BaseModel.swift */,
+				8D8DD9DB2349FFCB00B9191B /* RemoteModel.swift */,
+				8D8DD9DD234A005D00B9191B /* RemoteModelImpl.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -192,6 +291,7 @@
 		8DA717F22348300B00EF6047 /* network */ = {
 			isa = PBXGroup;
 			children = (
+				8D8DD9CE2349E8F500B9191B /* responses */,
 				8DA717F42348302900EF6047 /* BaseApiClient.swift */,
 				8DA717F62348306A00EF6047 /* SharedApiClient.swift */,
 				8DA717F82348308000EF6047 /* IApiClient.swift */,
@@ -231,6 +331,10 @@
 			isa = PBXGroup;
 			children = (
 				8DA71808234831A700EF6047 /* View.xib */,
+				8DA7182223497F7900EF6047 /* CategoryCollectionViewCell.swift */,
+				8DA7182323497F7900EF6047 /* CategoryCollectionViewCell.xib */,
+				8DA7182623498A3500EF6047 /* PetTableViewCell.swift */,
+				8DA7182723498A3500EF6047 /* PetTableViewCell.xib */,
 			);
 			path = xibs;
 			sourceTree = "<group>";
@@ -238,6 +342,7 @@
 		8DA7180B2348331B00EF6047 /* mvp */ = {
 			isa = PBXGroup;
 			children = (
+				8D10E87B2376DB9C00718B9C /* viewmodels */,
 				8DA718102348333C00EF6047 /* views */,
 				8DA7180E2348332D00EF6047 /* presenters */,
 			);
@@ -248,6 +353,10 @@
 			isa = PBXGroup;
 			children = (
 				8DA7180C2348332700EF6047 /* BasePresenter.swift */,
+				8DA7181A2348A32000EF6047 /* LoginPresenter.swift */,
+				8DA7181E2348A38500EF6047 /* LoginPresenterImpl.swift */,
+				8D8DD9D72349FE9000B9191B /* PetListPresenter.swift */,
+				8D8DD9D92349FEDD00B9191B /* PetListPresenterImpl.swift */,
 			);
 			path = presenters;
 			sourceTree = "<group>";
@@ -256,8 +365,32 @@
 			isa = PBXGroup;
 			children = (
 				8DA718112348334400EF6047 /* BaseView.swift */,
+				8DA7181C2348A33400EF6047 /* LoginView.swift */,
+				8D8DD9D52349FE6F00B9191B /* PetListView.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		8DA71817234899F500EF6047 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				8DA7181823489A2900EF6047 /* CardView.swift */,
+				8DBA246A2349A7F300B03AF4 /* SideMenuViewController.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		EB9C16454E8E6B60FF222A60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B27E5A246086ABBBA199EA69 /* Pods-PetAdpotion.debug.xcconfig */,
+				6F661F4BAAE86027272DB620 /* Pods-PetAdpotion.release.xcconfig */,
+				9E344C6300915560CA1954F7 /* Pods-PetAdpotionTests.debug.xcconfig */,
+				B5203DEDF0B8C536BC5CE243 /* Pods-PetAdpotionTests.release.xcconfig */,
+				81F6F69728E9E9744B70C1E8 /* Pods-PetAdpotionUITests.debug.xcconfig */,
+				BE6BA3FC956EAD0BE4431349 /* Pods-PetAdpotionUITests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +400,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DA717DF23482EFC00EF6047 /* Build configuration list for PBXNativeTarget "PetAdpotion" */;
 			buildPhases = (
+				68D4F0E36787F7B6A928CF2D /* [CP] Check Pods Manifest.lock */,
 				8DA717B323482EF800EF6047 /* Sources */,
 				8DA717B423482EF800EF6047 /* Frameworks */,
 				8DA717B523482EF800EF6047 /* Resources */,
+				1DF2B2C9F8908C8E31A96B6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -284,6 +419,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DA717E223482EFC00EF6047 /* Build configuration list for PBXNativeTarget "PetAdpotionTests" */;
 			buildPhases = (
+				744D557B385B5F4AB70F84B1 /* [CP] Check Pods Manifest.lock */,
 				8DA717C723482EFC00EF6047 /* Sources */,
 				8DA717C823482EFC00EF6047 /* Frameworks */,
 				8DA717C923482EFC00EF6047 /* Resources */,
@@ -302,6 +438,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DA717E523482EFC00EF6047 /* Build configuration list for PBXNativeTarget "PetAdpotionUITests" */;
 			buildPhases = (
+				26FB0F37BF97C9AFE97930BC /* [CP] Check Pods Manifest.lock */,
 				8DA717D223482EFC00EF6047 /* Sources */,
 				8DA717D323482EFC00EF6047 /* Frameworks */,
 				8DA717D423482EFC00EF6047 /* Resources */,
@@ -365,7 +502,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DA71809234831A700EF6047 /* View.xib in Resources */,
+				8DA7182523497F7900EF6047 /* CategoryCollectionViewCell.xib in Resources */,
 				8DA717C523482EFC00EF6047 /* LaunchScreen.storyboard in Resources */,
+				8DA7182923498A3500EF6047 /* PetTableViewCell.xib in Resources */,
 				8DA717C223482EFC00EF6047 /* Assets.xcassets in Resources */,
 				8DA717C023482EF800EF6047 /* Main.storyboard in Resources */,
 			);
@@ -387,25 +526,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DF2B2C9F8908C8E31A96B6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetAdpotion/Pods-PetAdpotion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetAdpotion/Pods-PetAdpotion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PetAdpotion/Pods-PetAdpotion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26FB0F37BF97C9AFE97930BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetAdpotionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68D4F0E36787F7B6A928CF2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetAdpotion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		744D557B385B5F4AB70F84B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetAdpotionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8DA717B323482EF800EF6047 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8DD9DA2349FEDD00B9191B /* PetListPresenterImpl.swift in Sources */,
+				8D8DD9DE234A005D00B9191B /* RemoteModelImpl.swift in Sources */,
+				8D10E88A2377EAAA00718B9C /* GetAllCatsResponse.swift in Sources */,
+				8D8DD9D42349E98900B9191B /* CategoryVO.swift in Sources */,
+				8D10E87A2376C83900718B9C /* ErrorResponse.swift in Sources */,
+				8D10E87F2376DBE400718B9C /* PetListViewModel.swift in Sources */,
+				8DA7181B2348A32000EF6047 /* LoginPresenter.swift in Sources */,
+				8D8DD9D22349E95600B9191B /* GetAllPetCategoryResponse.swift in Sources */,
 				8DA717F72348306A00EF6047 /* SharedApiClient.swift in Sources */,
 				8DA717F52348302900EF6047 /* BaseApiClient.swift in Sources */,
 				8DA717BD23482EF800EF6047 /* ViewController.swift in Sources */,
+				8DBA246B2349A7F300B03AF4 /* SideMenuViewController.swift in Sources */,
 				8DA717FB234830DB00EF6047 /* AppConstants.swift in Sources */,
+				8D8DD9D62349FE6F00B9191B /* PetListView.swift in Sources */,
+				8D8DD9DC2349FFCB00B9191B /* RemoteModel.swift in Sources */,
+				8DA7181923489A2900EF6047 /* CardView.swift in Sources */,
 				8DA71807234831A000EF6047 /* BaseTableViewCell.swift in Sources */,
 				8DA718052348319000EF6047 /* BaseCollectionViewCell.swift in Sources */,
+				8DA7181F2348A38500EF6047 /* LoginPresenterImpl.swift in Sources */,
 				8DA717EF23482FE100EF6047 /* BaseVO.swift in Sources */,
 				8DA717FF2348313200EF6047 /* Extensions.swift in Sources */,
+				8DA7181D2348A33400EF6047 /* LoginView.swift in Sources */,
+				8D8DD9D82349FE9000B9191B /* PetListPresenter.swift in Sources */,
+				8D10E87D2376DBC000718B9C /* BaseViewModel.swift in Sources */,
 				8DA7180D2348332700EF6047 /* BasePresenter.swift in Sources */,
 				8DA717F123482FF200EF6047 /* BaseModel.swift in Sources */,
 				8DA717FD234830FF00EF6047 /* UserDefUtils.swift in Sources */,
 				8DA718122348334400EF6047 /* BaseView.swift in Sources */,
+				8DA7182423497F7900EF6047 /* CategoryCollectionViewCell.swift in Sources */,
 				8DA717F92348308000EF6047 /* IApiClient.swift in Sources */,
+				8DA7182123497DD600EF6047 /* PetListViewController.swift in Sources */,
+				8DA7182823498A3500EF6047 /* PetTableViewCell.swift in Sources */,
 				8DA717BB23482EF800EF6047 /* AppDelegate.swift in Sources */,
+				8D8DD9D02349E90500B9191B /* BaseResponse.swift in Sources */,
+				8D10E88C2377EAE500718B9C /* CatsVO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,6 +824,7 @@
 		};
 		8DA717E023482EFC00EF6047 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27E5A246086ABBBA199EA69 /* Pods-PetAdpotion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -596,6 +843,7 @@
 		};
 		8DA717E123482EFC00EF6047 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F661F4BAAE86027272DB620 /* Pods-PetAdpotion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -614,6 +862,7 @@
 		};
 		8DA717E323482EFC00EF6047 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E344C6300915560CA1954F7 /* Pods-PetAdpotionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -635,6 +884,7 @@
 		};
 		8DA717E423482EFC00EF6047 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5203DEDF0B8C536BC5CE243 /* Pods-PetAdpotionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -656,6 +906,7 @@
 		};
 		8DA717E623482EFC00EF6047 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F6F69728E9E9744B70C1E8 /* Pods-PetAdpotionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -676,6 +927,7 @@
 		};
 		8DA717E723482EFC00EF6047 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6BA3FC956EAD0BE4431349 /* Pods-PetAdpotionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
